@@ -1,0 +1,5 @@
+.carousel-item img {
+    height: 400px; /* يمكنك تغيير القيمة حسب الحاجة */
+    object-fit: cover; /* لضمان ملء الصورة للحاوية */
+    margin-top: 80px;
+}

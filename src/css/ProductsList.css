@@ -1,0 +1,18 @@
+.divider {
+    height: 2px;
+    background-color: #ee6ae3; /* لون الخط */
+    margin: 28px 0; /* الهامش الأعلى والأسفل */
+    position: relative; /* لتحديد موضع النص */
+  }
+  
+  .divider::before {
+    content: "TRENDS"; /* النص المراد عرضه */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* لتمركز النص */
+    background-color: white; /* لون خلفية النص */
+    padding: 0 8px; /* مساحة حول النص */
+    font-weight:bolder; /* حجم النص */
+    color: plum;
+  }
