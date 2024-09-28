@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import {  useParams } from "react-router-dom";
+
 import "../css/cart.css"
 import { useDispatch, useSelector } from "react-redux";
-import { Button } from "bootstrap";
+
 import { addToCart, ClearCart, decrase, getTotal, removeFromCart } from "../slices/CartSlice";
 function Cart(){
 const cart=useSelector(state=>state.cart);
